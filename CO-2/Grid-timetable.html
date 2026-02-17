@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Timetable</title>
+    <style>
+      h2{
+        text-align: center;
+      }
+      body{
+        font-family: sans-serif;
+        background-color: white;
+      }
+      .grid-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap:20px;
+        padding:20px;
+      }
+      .box{
+        background-color: white;
+        padding: 15px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Btech Timetable using Grid</h2>
+    <div class="grid-container">
+      <div class="box" name="monday">Monday</div>
+      <div class="box" name="tuesday">Tuesday</div>
+      <div class="box" name="wednesday">Wednesday</div>
+      <div class="box" name="thursday">Thusrday</div>
+      <div class="box" name="friday">Friday</div>
+      <div class="box" name="saturday">Saturday</div>
+
+
+      <div class="box" name="DSA">DSA</div>
+      <div class="box" name="FWD">FWD</div>
+      <div class="box" name="MAI">MAI</div>
+      <div class="box">GLB</div>
+      <div class="box">Hobby</div>
+      <div class="box" name="English">English</div>
+
+
+      <div class="box" name="JAVA">JAVA</div>
+      <div class="box" name="python">Python</div>
+      <div class="box" name="HTML">HTML</div>
+      <div class="box" name="CSS">CSS</div>
+      <div class="box" name="C">C</div>
+      <div class="box" name="JS">JS</div>
+    </div>
+  </body>
+</html>

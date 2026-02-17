@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Booking</title>
+    <style>
+        body{
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+        h1{
+            color:black;
+            font-family: Tahoma,sans-serif;
+        }
+        label{
+            display:block;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <h1>Event booking</h1>
+    
+    <label for="name">Name: </label>
+    <input type="text" id="name" minlength="4" required placeholder="Enter name"/>
+
+    <label for="email">Email: </label>
+    <input type="email" id="email" required placeholder="Enter email"/>
+
+    <label for="date">Date of Event: </label>
+    <input type="datetime-local" required/>
+
+    <label for="seats">No of seats</label>
+    <input id="seats" type="text" min="2" max="10" required>
+    
+</body>
+
+</html>
